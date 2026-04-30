@@ -9,7 +9,7 @@ import java.util.Map;
 @RestController
 public class HealthController {
 
-    @GetMapping("/health")
+    @GetMapping("/api/v1/health")
     public Map<String, Object> health() {
         Map<String, Object> response = new LinkedHashMap<>();
 
